@@ -17,6 +17,8 @@
             "CloseTab" : "Ctrl+G, X",
             "NavigationDock" : "Ctrl+G, 1",
             "OutlineDock" : "Ctrl+G, 2",
+            "SearchDock" : "Ctrl+G, 3",
+            "LocationListDock" : "Ctrl+G, 4",
             "NavigationMode" : "Ctrl+G, W",
             "LocateNode" : "Ctrl+G, D",
             "VerticalSplit" : "Ctrl+G, \\",

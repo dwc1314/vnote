@@ -88,7 +88,7 @@ NavigationModeWrapper<QTreeWidget, QTreeWidgetItem> *OutlineViewer::getNavigatio
 
 TitleBar *OutlineViewer::setupTitleBar(const QString &p_title, QWidget *p_parent)
 {
-    auto titleBar = new TitleBar(p_title, TitleBar::Action::None, p_parent);
+    auto titleBar = new TitleBar(p_title, false, TitleBar::Action::None, p_parent);
 
     auto decreaseBtn = titleBar->addActionButton(QStringLiteral("decrease_outline_level.svg"), tr("Decrease Expansion Level"));
     connect(decreaseBtn, &QToolButton::clicked,

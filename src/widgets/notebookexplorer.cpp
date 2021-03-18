@@ -88,6 +88,7 @@ TitleBar *NotebookExplorer::setupTitleBar(QWidget *p_parent)
     const auto &widgetConfig = ConfigMgr::getInst().getWidgetConfig();
 
     auto titleBar = new TitleBar(tr("Notebook"),
+                                 false,
                                  TitleBar::Action::Menu,
                                  p_parent);
     titleBar->setWhatsThis(tr("This title bar contains buttons and menu to manage notebooks and notes."));
